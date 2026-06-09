@@ -2754,7 +2754,7 @@ bool CHL2_Player::BumpWeapon( CBaseCombatWeapon *pWeapon )
 //-----------------------------------------------------------------------------
 bool CHL2_Player::ClientCommand( const CCommand &args )
 {
-#if	HL2_SINGLE_PRIMARY_WEAPON_MODE
+#if	0
 
 	//Drop primary weapon
 	if ( !Q_stricmp( args[0], "DropPrimary" ) )
